@@ -17,7 +17,14 @@ final class MainController {
         
         
         //let name = try req.parameters.next(String.self)
-        let no = Int(arc4random_uniform(3))
+        let max = 3
+        var no = 0
+        #if os(Linux)
+        no = Int(random() % (max + 1))
+        #else
+        no = Int(arc4random_uniform(UInt32(max)))
+        #endif
+        
         let images = ["forestbridge.jpg", "rebar.jpg", "trucks.jpg"]
         let image = images[no]
         let view = try req.view().render("home", ["image":image])
