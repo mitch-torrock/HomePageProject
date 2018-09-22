@@ -18,6 +18,7 @@ public func routes(_ router: Router) throws {
     //router.get("greet", use: todoController.greet)
     
     
-    router.get("hello", String.parameter, use: mainController.hello)
+    //router.get("", String.parameter, use: mainController.hello)
+    router.get("", use: mainController.home)
     
 }
