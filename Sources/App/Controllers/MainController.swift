@@ -20,7 +20,7 @@ final class MainController {
         //let max = 3
 
        // no = Int(arc4random_uniform(UInt32(max)))
-let no = 1
+let no = 2
         
         let images = ["forestbridge.jpg", "rebar.jpg", "trucks.jpg"]
         let image = images[no]
