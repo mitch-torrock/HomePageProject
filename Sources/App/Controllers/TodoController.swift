@@ -14,6 +14,12 @@ final class TodoController {
         }
     }
 
+    
+    func greet(_ req: Request) throws -> String {
+        return "Hey, how are you?"
+    }
+
+    
     /// Deletes a parameterized `Todo`.
     func delete(_ req: Request) throws -> Future<HTTPStatus> {
         return try req.parameters.next(Todo.self).flatMap { todo in
