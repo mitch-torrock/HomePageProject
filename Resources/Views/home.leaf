@@ -18,13 +18,17 @@ background-size: cover;
 <body>
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-<div class="w3-display-topleft w3-padding-large w3-xlarge">
+<div class="w3-display-topleft w3-padding-large w3-xlarge w3-black w3-padding-8">
 Torrock Construction Services Inc.
 </div>
 <div class="w3-display-middle">
-<h2 class="w3-jumbo w3-animate-top">Engineering, Construction</h2>
+<h1 class="w3-xlarge w3-animate-top w3-black w3-padding-8">Structural and Geotechnical Engineering, Construction Management</h1>
 <hr class="w3-border-grey" style="margin:auto;width:40%">
-<p class="w3-large w3-center">mitch {at} torrock {dot} com</p>
+<p class="w3-medium w3-center w3-black w3-padding-8">Serving Annapolis Valley, Nova Scotia</p>
+
+<hr class="w3-border-grey" style="margin:auto;width:40%">
+<p class="w3-medium w3-center w3-black w3-padding-8">mitch {at} torrock {dot} com</p>
+
 </div>
 <div class="w3-display-bottomleft w3-padding-large">
 Powered by Torrock CS
