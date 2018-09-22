@@ -22,7 +22,7 @@ background-size: cover;
 Torrock Construction Services Inc.
 </div>
 <div class="w3-display-middle">
-<h1 class="w3-jumbo w3-animate-top">CONSTRUCTION/ENGINEERING</h1>
+<h2 class="w3-jumbo w3-animate-top">Engineering, Construction</h2>
 <hr class="w3-border-grey" style="margin:auto;width:40%">
 <p class="w3-large w3-center">mitch {at} torrock {dot} com</p>
 </div>
